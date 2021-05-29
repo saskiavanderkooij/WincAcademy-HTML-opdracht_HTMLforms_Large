@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hoe word ik front-end developer</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <h1>Hoe word ik front-end developer?</h1>
+        <h2>Volg hier mijn reis.</h2>
+    </header>
+    <main>
+        <form class="form" name="contact" method="POST" data-netlify="true">
+            <section class="content">
+                <h2> Contact <a href="index.html" class="link-home">Home</a></h2>
+                <hr />
+            </section>
+            <p class="form-content">
+                <label for="fname">Voornaam:</label><br />
+                <input type="text" class="input" id="fname" name="fname" />
+            </p>
+            <p class="form-content">
+                <label for="lname">Achternaam:</label><br />
+                <input type="text" class="input" id="lname" name="lname" />
+            </p>
+            <p class="form-content">
+                <label for="email">E-mailadres:</label><br />
+                <input type="email" class="input" id="email" name="email" />
+            </p>
+            <p class="form-content">
+                <label for="leeftijd">Leeftijd:</label><br />
+                <input type="number" class="input" id="leeftijd" name="leeftijd" />
+            </p>
+            <p class="form-content">
+                <label for="geboortedatum">Geboortedatum:</label><br />
+                <input type="date" placeholder="dd-mm-yyyy" class="input" id="geboortedatum" name="geboortedatum" />
+            </p>
+            <p class="form-content">
+                <label>Geslacht:</label><br />
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Man</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Vrouw</label>
+                <input type="radio" id="binair" name="gender" value="binair">
+                <label for="other">Non-binaire</label>
+            </p>
+            <p class="form-content">
+                <label for="textarea">Vertel iets over jezelf:</label><br />
+                <textarea class="textarea"></textarea>
+            </p>
+            <p class="form-content">
+                <label>Favoriete Architect:</label><br />
+                <input type="checkbox" id="peter" name="peter" value="peter">
+                <label for="frans"> Peter Zumthor</label><br>
+                <input type="checkbox" id="tadao" name="tadao" value="tadao">
+                <label for="tadao"> Tadao Ando</label><br>
+                <input type="checkbox" id="oscar" name="oscar" value="oscar">
+                <label for="oscar"> Oscar Niemeyer</label><br>
+                <input type="checkbox" id="geen" name="geen" value="geen">
+                <label for="geen"> Geen van allen</label>
+            </p>
+            <p class="form-content">
+                <label for="favcolor">Selecteer je favoriete kleur:</label>
+                <input type="color" id="favcolor" name="favcolor">
+            </p>
+            <p class="form-content">
+                <label for="myfile">Upload je favoriete patroon:</label><br />
+                <input class="file" type="file" id="myfile" name="myfile">
+            </p>
+            <p class="form-content">
+                <label for="myfile">Wat is je favoriete website:</label><br />
+                <input type="url" placeholder="https://example.com" pattern="https://.*" id="url" name="url" />
+            </p>
+                <button class="button" type="reset">Annuleren</button>
+                <button class="button" type="submit">Verzenden</button>
+        </form>
+    </main>
+        <footer class="footer">
+            <p>Dit artikel is geschreven door Saskia.</p>
+            <address>
+                Please contact<a href="mailto:saskia@example.com"> Saskia</a> voor vragen over dit artikel.
+            </address>
+        </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+.artikel {
+    margin:15px 5px 5px 5px;
+    border: 1px solid darkseagreen;
+}
+
+.button {
+    background-color: darkseagreen;
+    border: none;
+    color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    width: 150px;
+    margin:10px 0 10px 15px;
+   
+}
+
+.content {
+    color: darkseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-nav {
+    border: 1px solid darkseagreen;
+    color: darkseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-tekst {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img-klerennaaien {
+    padding-right:10px;
+    width:100px;
+}
+
+.file {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form {
+    margin: 15px 5px 5px 5px;
+    border: 1px solid darkseagreen;
+}
+
+.form-content {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.figure {
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.figure-klerennaaien {
+    margin-left: 0;
+}
+
+.header {
+    background-color: darkseagreen;
+    border: 1px solid gray;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    text-align: center;
+}
+
+.input {
+    border: 1px solid gray;
+    width: 250px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textarea {
+    border: 1px solid gray;
+    height:150px;
+    width: 250px;
+}
+
+.link {
+    color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link-home {
+    color: darkslategray;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.link-tekst {
+    color: darkseagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+    padding: 0px;
+}
+
+.nav li {
+    display:inline;
+    margin-right:15px;
+}
+
+.footer {
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-content {
+    display:inline;
+}
+
+/*Media Queries*/
+@media (min-width: 1024px) {
+    .artikel {
+        background-color: gray;
+    }
+
+    .content {
+        color: darkseagreen;
+    }
+
+    .content-tekst {
+        color: darkseagreen;
+        font-size: 10px;
+        line-height:15px;
+    }
+}
+
+
